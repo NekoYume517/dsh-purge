@@ -1,3 +1,5 @@
+> **分叉说明（Fork notice）**：本仓库是 [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge)（v1.1.71，MIT）的社区适配分叉，原作暂停更新后无法跟进 dsh 0.2.1+。分叉仅补注册缺失的 `cwd` 提示词变量（0.2.1 起宿主只注册 provider/model，原版 personaSuffix 的 `{{cwd}}` 会触发 "unknown prompt variable" 使整轮运行失败），其余清洗/规则集/演练台逻辑未动。按原作署名要求，来源与思路归属 YuJunZhiXue/dsh-purge。
+
 <p align="center">
   <img src="docs/banner.svg" alt="dsh-purge" width="720">
 </p>

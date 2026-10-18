@@ -1,3 +1,5 @@
+> **Fork notice**: This is a community compatibility fork of [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) (v1.1.71, MIT). Upstream maintenance is paused and had not caught up with dsh 0.2.1+. The fork only registers the missing `cwd` prompt variable (since 0.2.1 the host registers just `provider`/`model`, so the stock personaSuffix's `{{cwd}}` failed rendering with "unknown prompt variable" and aborted the turn); all clean/rules/drill logic is untouched. Per the upstream attribution requirement, credit and provenance belong to YuJunZhiXue/dsh-purge.
+
 <p align="center">
   <img src="docs/banner.svg" alt="dsh-purge" width="720">
 </p>

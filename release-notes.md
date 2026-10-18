@@ -1,3 +1,8 @@
+## 1.1.71-fork.1 (NekoYume517 fork)
+
+- 适配 dsh 0.2.1-rc.2：宿主提示词变量注册表只剩 provider/model，personaSuffix 的 `{{cwd}}` 渲染失败导致整轮运行中断（"unknown prompt variable {{cwd}}"）。插件启动时补注册 `cwd` 变量（会话 header.cwd 优先，回退 agent options.cwd，再回退进程 cwd），0.2.0 不受影响。
+- 其余逻辑与上游 1.1.71 一致。上游：YuJunZhiXue/dsh-purge（MIT）。
+
 # 1.1.71
 
 ## 中文
